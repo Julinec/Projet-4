@@ -1,0 +1,28 @@
+header
+{
+	font-weight: bold;
+	color: black;
+}
+.header
+{
+	background-color: #b3685d;
+	padding: 5px 10px 5px 10px;
+	font-size: 1.5em;
+}
+.jumbotron 
+{
+    margin-bottom: 0px;
+    background-image: url(fond.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 24px;
+    height: 500px;
+}
+.container
+{
+	background-color: #00000085;
+	color: #fff;
+	padding: 15px 0px 5px 0px;
+}
