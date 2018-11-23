@@ -1,13 +1,14 @@
 header
 {
 	font-weight: bold;
-	color: black;
+	color: #fff;
 }
-.header
+header h1
 {
-	background-color: #b3685d;
-	padding: 5px 10px 5px 10px;
+	background-color: #262627;
+	padding: 10px 20px;
 	font-size: 1.5em;
+	margin: 0;
 }
 .jumbotron 
 {
@@ -18,11 +19,83 @@ header
     background-repeat: no-repeat;
     color: white;
     font-size: 24px;
-    height: 500px;
+    height: 575px;
+    text-align: center;
 }
 .container
 {
 	background-color: #00000085;
 	color: #fff;
-	padding: 15px 0px 5px 0px;
+	padding: 25px 10px 5px 25px;
+}
+
+ul {
+	text-align:center;
+}
+ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 10px;
+	border-top: 5px solid rgb(255,255,255,0);
+}
+
+ul li a {
+	color: #000;
+
+}
+.menu-accueil:hover
+{
+	border-top: 5px solid #4C8;
+	background-color: RGB(64, 200, 130, 0.15);
+}
+
+.menu-activités:hover
+{
+	border-top: 5px solid #f1dc4f;
+	background-color: RGB(241, 211, 79, 0.15);
+}
+
+.menu-inscrire:hover
+{
+	border-top: 5px solid #0070BB;
+	background-color: RGB(000, 112, 192, 0.15);
+}
+
+.menu-infos:hover
+{
+	border-top: 5px solid #e44d26;
+	background-color: RGB(228, 77, 38, 0.15);
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.gauche
+{
+	width: 33%;
+	background-color: #995047;
+	color: white;
+}
+.centre
+{
+	width: 33%;
+	background-color: #a3ab5a;
+}
+.droite
+{
+	width: 33%;
+	background-color:#995047;
+	color: white;
+}
+
+
+footer
+{
+	height: 80px;
+	padding-top: 15px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top: 2px solid #AAA;
 }
