@@ -1,0 +1,102 @@
+body{ 
+	font-family: "Century Gothic", Calibri, serif;
+	font-size: 13px;
+	margin: Opx;
+	padding: Opx;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+header{
+	height: 100px
+}
+
+footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top: 2px solid #AAA;
+}
+
+nav {
+	width: 100%;
+	background-color: #424558;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a{
+	display: incline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+
+.menu-accueil:hover{
+	border-top: 5px solid #4C8;
+	background-color: RGBa(64, 200, 130, 0.15);
+}
+
+.menu-activités:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-inscrire:hover{
+	border-top: 5px solid #0070BB;
+	background-color: RGBa(000, 112, 192, 0.15);
+}
+
+.menu-infos:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+    }
+    nav li:hover a{
+    	padding: 5px 10px 10px 10px ;
+    }
+}
+img{
+	padding: 10px
+	border: 1px solid #CCC
+	box-shadow: 0px 0px 17px #BBB;
+	max-width: 100%;
+	width: 1700px;
+}
+
+p{
+	text-align: center;
+	font-size: 25px;
+}
